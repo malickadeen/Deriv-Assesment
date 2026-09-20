@@ -1,0 +1,63 @@
+{
+  "total_tickets": 5,
+  "scorable_tickets": 5,
+  "invalid_predictions": 0,
+  "category_accuracy": 1.0,
+  "priority_accuracy": 0.8,
+  "sentiment_accuracy": 0.8,
+  "exact_match_rate": 0.6,
+  "missing_label_ids": [],
+  "extra_label_ids": [],
+  "per_ticket": [
+    {
+      "ticket_id": "T-1001",
+      "scorable": true,
+      "valid_prediction": true,
+      "category_correct": true,
+      "priority_correct": true,
+      "sentiment_correct": false,
+      "exact_match": false,
+      "note": ""
+    },
+    {
+      "ticket_id": "T-1002",
+      "scorable": true,
+      "valid_prediction": true,
+      "category_correct": true,
+      "priority_correct": true,
+      "sentiment_correct": true,
+      "exact_match": true,
+      "note": ""
+    },
+    {
+      "ticket_id": "T-1003",
+      "scorable": true,
+      "valid_prediction": true,
+      "category_correct": true,
+      "priority_correct": false,
+      "sentiment_correct": true,
+      "exact_match": false,
+      "note": ""
+    },
+    {
+      "ticket_id": "T-1004",
+      "scorable": true,
+      "valid_prediction": true,
+      "category_correct": true,
+      "priority_correct": true,
+      "sentiment_correct": true,
+      "exact_match": true,
+      "note": ""
+    },
+    {
+      "ticket_id": "T-1005",
+      "scorable": true,
+      "valid_prediction": true,
+      "category_correct": true,
+      "priority_correct": true,
+      "sentiment_correct": true,
+      "exact_match": true,
+      "note": ""
+    }
+  ]
+}

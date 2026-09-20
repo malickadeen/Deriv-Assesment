@@ -1,0 +1,27 @@
+{
+  "T-1001": {
+    "category": "payment_issue",
+    "priority": "high",
+    "sentiment": "frustrated"
+  },
+  "T-1002": {
+    "category": "account_verification",
+    "priority": "high",
+    "sentiment": "frustrated"
+  },
+  "T-1003": {
+    "category": "login_access",
+    "priority": "low",
+    "sentiment": "neutral"
+  },
+  "T-1004": {
+    "category": "trading_problem",
+    "priority": "high",
+    "sentiment": "urgent"
+  },
+  "T-1005": {
+    "category": "other",
+    "priority": "low",
+    "sentiment": "neutral"
+  }
+}

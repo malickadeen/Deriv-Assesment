@@ -3,3 +3,12 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+.pytest_cache/
+
+# Generated run artifacts (recreated by `python run.py`)
+predictions/*
+!predictions/.gitkeep
+validation.json
+metrics.json
+report.md
+llm_calls.jsonl

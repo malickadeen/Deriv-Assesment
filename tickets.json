@@ -1,0 +1,32 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "subject": "Duplicate charge on my deposit",
+    "message": "I deposited $200 into my account this morning but I was charged twice. There are two identical debits on my card statement. Please refund the duplicate charge as soon as possible.",
+    "channel": "email"
+  },
+  {
+    "ticket_id": "T-1002",
+    "subject": "Verification documents rejected again",
+    "message": "This is the third time I have uploaded my passport for identity verification and it keeps getting rejected without any explanation. I cannot access my account until this is resolved and I am very frustrated.",
+    "channel": "web_form"
+  },
+  {
+    "ticket_id": "T-1003",
+    "subject": "Password reset link expired",
+    "message": "Hi, the password reset link you emailed me says it has expired when I click it. Could you send a new one when you get a chance? Thanks.",
+    "channel": "email"
+  },
+  {
+    "ticket_id": "T-1004",
+    "subject": "Order stuck and not executing",
+    "message": "URGENT: my market order has been stuck as pending for 20 minutes and is not executing. The price is moving fast and I am losing money every second. I need this fixed immediately.",
+    "channel": "chat"
+  },
+  {
+    "ticket_id": "T-1005",
+    "subject": "Question about account statement download",
+    "message": "Hello, I was just wondering where I can find the option to download my monthly account statement as a PDF. No rush, just curious.",
+    "channel": "email"
+  }
+]

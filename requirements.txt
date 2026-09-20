@@ -1,20 +1,11 @@
-# MCP server + LangChain agent client boilerplate
+# AI ticket-classification evaluation pipeline
 #
-# The server uses FastMCP from the official MCP SDK (mcp.server.fastmcp), which
-# ships inside `mcp`. The standalone `fastmcp` (2.x/4.x) is intentionally NOT
-# used: it pins mcp internals that conflict with langchain-mcp-adapters, which
-# still targets the mcp 1.x line. Keeping everything on mcp 1.x avoids that.
-mcp>=1.24.0,<2
-fastapi>=0.115.0
-langchain>=1.0.0
-langchain-mcp-adapters>=0.3.1
-langchain-anthropic>=0.3.0
-langchain-openai>=0.3.0
-python-dotenv>=1.0.0
-
-# Qdrant RAG server (qdrant_server.py + ingest.py).
-# The [fastembed] extra adds local, keyless embeddings.
-qdrant-client[fastembed]>=1.12.0
-
-# PDF text extraction for ingest.py / rag_core.py.
-pypdf>=5.0.0
+# LangChain 1.x with the OpenAI-compatible chat client is used to talk to
+# GPT-4o-mini through OpenRouter. Pydantic v2 provides structured-output
+# schemas; python-dotenv loads the API key from .env; pytest runs the tests.
+langchain>=1.0,<2
+langchain-openai>=1.0,<2
+openai>=1.30
+pydantic>=2.6,<3
+python-dotenv>=1.0
+pytest>=8.0
